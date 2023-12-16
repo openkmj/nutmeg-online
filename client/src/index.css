@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+}
+body {
+  --bg-color: #bdc4ab;
+  --bg-color2: #ada49b;
+  --brown: #44260c;
+  --white: #fff;
+  --light-brown: #b26227;
+  --orange: #f05119;
+}
+input {
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+  width: 100%;
+  color: var(--brown);
+}
+button {
+  background-color: var(--brown);
+  color: var(--white);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+button:hover {
+  opacity: 0.8;
+}
+button.line {
+  color: var(--brown);
+  background: none;
+  padding: 0;
+  text-decoration: underline;
+}
