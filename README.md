@@ -51,3 +51,5 @@ env variables are here.
 ```
 VITE_SERVER_URL=http://localhost:3001
 ```
+
+### Open http://localhost:3001
